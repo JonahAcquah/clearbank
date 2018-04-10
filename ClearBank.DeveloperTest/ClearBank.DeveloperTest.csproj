@@ -44,8 +44,12 @@
     <Compile Include="Data\AccountDataStore.cs" />
     <Compile Include="Data\BackupAccountDataStore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AccountDataStoreFactory.cs" />
+    <Compile Include="Services\AccountService.cs" />
+    <Compile Include="Services\AccountValidatorFactory.cs" />
     <Compile Include="Services\BacsValidator.cs" />
     <Compile Include="Services\ChapsValidator.cs" />
+    <Compile Include="Services\ConfigSettings.cs" />
     <Compile Include="Services\FasterPaymentsValidator.cs" />
     <Compile Include="Services\IAccountDataStore.cs" />
     <Compile Include="Services\IAccountDataStoreFactory.cs" />
